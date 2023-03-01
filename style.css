@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+    @font-face {
+        font-family: 'idroid';
+        src: url(fontes/idroid.otf);
+    }
+
+
+
+
+
+    
+    body{
+        font-family: 'Tilt Neon', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background-color: #EBE5C5;
+        
+    }
+
+
+    a.externo::after{
+        content: '\1F517';
+        
+    }
+
+    a.externo{
+        text-decoration: none;
+        background-image: linear-gradient(to right, rgba(151, 30, 250, 0.568), transparent);
+    }
+
+
+
+
+
+    h1{
+            font-family: 'Roboto', sans-serif;
+
+    }
+
+    header{
+
+        background-image: linear-gradient(to bottom, #7D56E3, #6C6DFA);
+        width: 100%;
+        margin: 0px;
+        padding: 15px;
+        min-width: 150px;
+        
+        
+        
+    }
+
+    
+
+    nav > a{
+        font-family: 'Tilt Neon', sans-serif;
+        margin: 10px;
+        
+    }
+
+
+
+
+:root{
+    --cor0: #7D56E3;
+    --cor1: #7472fabd;
+    --cor2: #4F78F0;
+    --cor3: #D44FF0;
+    --cor4: #b355fc;
+}
+
+
+
+
+
+p{
+text-align: center;
+font-family: 'Tilt Neon', sans-serif;
+font-weight: normal;
+
+}
+
+h1{
+
+
+color:white;
+text-align: center;
+font-family: 'Tilt Neon', sans-serif;
+text-shadow: 1px 3px 7px rgba(0, 0, 0, 0.541);
+font-weight: normal;
+}
+
+
+
+h2{
+color: var(--cor0);
+margin-top: 0px;
+font-family: 'idroid', sans-serif;
+font-weight: normal;
+
+}
+
+
+.primeira{
+
+
+background-image: linear-gradient(to right, #567ce39c, #b660fd8a);
+}
+
+
+
+h2,p{
+
+
+margin-left: 50px;
+
+}
+
+
+main > p{
+text-align: justify;
+}
+
+
+
+.androids{
+margin-left: 30px;
+margin-right: 30px;
+width: 90%;
+
+}
+
+article{
+background-color: white;
+margin: auto;
+}
+
+main img{
+    width: 100%;
+}
+
+
+
+
+
+
+nav > a{
+color: #56e6ff;
+text-decoration: none;
+padding: 5px;
+border-radius: 5px;
+font-weight: bold;
+transition-duration: 0.6s;
+font-size: 1.15em;
+}
+
+nav > a:hover{
+    background-color: rgb(72, 22, 255);
+}
+
+
+
+/* box shadow */
+nav{
+    margin-bottom: -10px;
+}
+
+
+
+
+
+
+
+.mascote{
+font-size: 1.3em;
+background-image: linear-gradient(to right, #b660fd8a, #567ce39c);
+}
+
+
+p#continuacao{
+font-family: 'Tilt Neon', sans-serif;
+
+}
+
+
+#article1{
+width: 70%;
+margin-left: 10%;
+text-align: justify;
+margin: auto;
+padding: 20px;
+box-shadow: -2px 13px 11px rgba(0, 0, 0, 0.185);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+min-width: 400px;
+max-width: 1000px;
+
+
+
+}
+
+
+
+.katar{
+width:98%;
+padding-right: 22px;
+
+
+margin: auto;
+
+}
+
+.bugdroid{  
+
+        width: 40%;
+        margin: auto;
+        display: block;
+
+
+}
+
+
+
+h2{
+color: var(--cor0);
+margin-top: 0px;
+}
+
+
+p#naoclicado:hover{
+text-decoration: none;
+}
+
+
+
+
+
+strong{
+    color: #734BB3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+strong:hover{
+    text-decoration: underline;
+    transition-duration: 0.2s;
+    
+}
+
+.history{
+    text-decoration: none;
+    color: #734BB3;
+    font-weight: bold;
+}
+
+
+
+
+
+div.video{
+    background-color: var(--cor0);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+
+
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+
+
+
+aside{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #7D56E3, #6c6cfa7c);
+    box-shadow: 1px 6px 13px rgba(0, 0, 0, 0.24);
+}
+
+#h3_aside{
+    background-color: #4f85cc;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+#ul_aside{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-image: linear-gradient(to right, #7D56E3, #6C6DFA);
+    text-align: center;
+    padding: 5px;
+}
+
+footer > a{
+    color:white;
+    font-size: 0.8em;
+}
+
+.history2{
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+
+.history2:hover{
+    text-decoration: underline;
+    color: rgba(245, 255, 108, 0.514);
+}
